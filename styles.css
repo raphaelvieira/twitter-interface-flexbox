@@ -183,6 +183,116 @@ div.bar .content .actions button {
   margin-right: 20px;
 }
 
+div.wrapper-content {
+  display: flex;
+}
+
+div.wrapper-content aside.profile {
+  width: 260px;
+}
+
+div.wrapper-content aside.profile img.avatar {
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-top: -130px;
+}
+
+div.wrapper-content aside.profile h1 {
+  font-size: 21px;
+  color: #1f2226;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.profile span {
+  font-size: 14px;
+  color: #1f2226;
+}
+
+div.wrapper-content aside.profile p {
+  font-size: 14px;
+  color: #1f2226;
+  margin-top: 15px;
+}
+
+div.wrapper-content aside.profile ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+div.wrapper-content aside.profile ul.list li {
+  font-size: 14px;
+  color: #657786;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+/** first element*/
+div.wrapper-content aside.profile ul.list li:first-child {
+  margin: 0;
+}
+
+div.wrapper-content aside.profile ul.list li img {
+  margin-right: 10px;
+}
+
+div.wrapper-content aside.profile .widget {
+  margin-top: 20px;
+}
+
+div.wrapper-content aside.profile .widget strong {
+  font-weight: normal;
+  color: #3bb9e3;
+  color: 14px;
+  display: flex;
+  align-items: center;
+}
+
+div.wrapper-content aside.profile .widget strong img {
+  margin-right: 5px;
+}
+
+div.wrapper-content aside.profile .followers ul {
+  list-style: none;
+  display: flex; /* align items in row*/
+  flex-wrap: wrap; /* break line */
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+div.wrapper-content aside.profile .followers ul li {
+  width: 46px;
+  height: 46px;
+  background: #d8d5d9;
+  border-radius: 50%;
+  /* grow and shrink and flex basis(initial width)*/
+  flex: 1 0 auto;
+  /*flex-grow: 1; / increase when necessary
+  flex-shrink: 0; /* not shrink elements */
+  margin: 0 5px 5px 0;
+}
+
+div.wrapper-content aside.profile .images ul {
+  list-style: none;
+  display: flex; /* align items in row*/
+  flex-wrap: wrap; /* break line */
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+div.wrapper-content aside.profile .images ul li {
+  width: 80px;
+  height: 80px;
+  background: #d8d5d9;
+  border-radius: 8px;
+  /* grow and shrink and flex basis(initial width)*/
+  flex: 1 0 auto;
+  /*flex-grow: 1; / increase when necessary
+  flex-shrink: 0; /* not shrink elements */
+  margin: 0 5px 5px 0;
+}
+
 /*   box-sizing: border-box - padding will not increase to 320px the element, will reduce to 260px and apply 20px of padding 
 .app {
   width: 300px;
